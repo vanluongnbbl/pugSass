@@ -1,0 +1,22 @@
+
+mixin homeCard(src, title, desc, text)
+    .homeCard
+        img(src=src).home-cards__img
+        h3.home-cards__title= title
+        p.home-cards__desc= desc
+        a(href="#")= text
+
+mixin list(...items)
+    each item in items
+        li.links__item
+            a(href="#")= item
+
+mixin footer(...items)
+    each item in items
+        li.footer__item
+            a(href="#")= item
+
+- const myClasses = ["class1", "class2", "class3"]
+- const myStyles = {"color": "red", "background-color": "blue"}
+- const myAttributes = {"src": "./images/logo.png", "alt": "logo microsoft"}
+- const menuItem = ["Office", "Windows", "Xbox", "Deal", "Support"]

@@ -13,6 +13,14 @@ body {
   color: #000;
   font-size: 15px;
   line-height: 1.5; }
+  body .title-about {
+    text-align: center;
+    margin: 40px 0; }
+  body .footer.footer-about {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; }
   body a {
     color: #262626;
     text-decoration: none; }
